@@ -1,0 +1,34 @@
+{
+  "name": "tarea-carga-masiva",
+  "version": "0.0.1",
+  "description": "carga masiva",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "dev": "nodemon"
+  },
+  "author": "Aldair",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express-fileupload": "^1.5.0",
+    "config": "^3.3.11",
+    "convert-csv-to-json": "^2.46.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.0",
+    "js-yaml": "^4.1.0",
+    "mongoose": "^8.3.1",
+    "nodemon": "^3.1.0",
+    "pino": "^8.20.0",
+    "pino-pretty": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/config": "^3.3.4",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/mongoose": "^5.11.97",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
